@@ -1,0 +1,59 @@
+# Coffee Shop Full Stack
+
+## Full Stack Nano - IAM Final Project
+
+Udacity has decided to open a new digitally enabled cafe for students to order drinks, socialize, and study hard. But they need help setting up their menu experience.
+
+You have been called on to demonstrate your newly learned skills to create a full stack drink menu application. The application must:
+
+1. Display graphics representing the ratios of ingredients in each drink.
+2. Allow public users to view drink names and graphics.
+3. Allow the shop baristas to see the recipe information.
+4. Allow the shop managers to create new drinks and edit existing drinks.
+
+## Tasks
+
+There are `@TODO` comments throughout the project. We recommend tackling the sections in order. Start by reading the READMEs in:
+
+1. [`./backend/`](./backend/README.md)
+2. [`./frontend/`](./frontend/README.md)
+
+## About the Stack
+
+We started the full stack application for you. It is designed with some key functional areas:
+
+### Backend
+
+The `./backend` directory contains a partially completed Flask server with a pre-written SQLAlchemy module to simplify your data needs. You will need to complete the required endpoints, configure, and integrate Auth0 for authentication.
+
+[View the README.md within ./backend for more details.](./backend/README.md)
+
+### Frontend
+
+The `./frontend` directory contains a complete Ionic frontend to consume the data from the Flask server. You will only need to update the environment variables found within (./frontend/src/environment/environment.ts) to reflect the Auth0 configuration details set up for the backend app.
+
+[View the README.md within ./frontend for more details.](./frontend/README.md)
+
+
+pip3 install -r requirements.txt
+
+
+https://dev-te6yjayf.us.auth0.com/authorize?audience=coffee&response_type=token&client_id=NYnFZnMIXtvx1HfunfgXStJjNltM78vY&redirect_uri=https://localhost:8100/tabs/user-page
+
+
+https://{{YOUR_DOMAIN}}/authorize?audience={{API_IDENTIFIER}}&response_type=token&client_id={{YOUR_CLIENT_ID}}&redirect_uri={{YOUR_CALLBACK_URI}}
+
+
+BARISTER
+
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFGdG41REs2MV9aUkxDQ2ZPS3NEdSJ9.eyJpc3MiOiJodHRwczovL2Rldi10ZTZ5amF5Zi51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJkMmQ1MjBmNjlkYzM4ODFiOTk1YTc0IiwiYXVkIjoiY29mZmVlIiwiaWF0IjoxNjU4MjI0MjE3LCJleHAiOjE2NTgyMzE0MTcsImF6cCI6Ik5ZbkZabk1JWHR2eDFIZnVuZmdYU3RKak5sdE03OHZZIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiXX0.rhUAbGtDyuV-zBjAEmpZefa9wOgJydxNmfbsPsEh4aCzXh1krH879lPzMq0s_DwhQbofcVCuzWco6cODuYfShnQWIAAsB59qjdgpeN6qGgbGAfcGAX8w8gDJadx2zzqrgdOFMr-q7au-YtLo4lUIBFVytBXinLsm5Espll_JSopDeNosRf8tTWQO_d6kG-C_vPEP79nem2kr8e7EHXRBC3aNPfdKqYeLp8tJgAqFCldJmBd3wv9-CzeaTaiwlSQtEUjOFIO3xwrqpSeGOhM7mzmK9X29h9TzVc_RD1fg22J5w65KqsBUbET6yLM00Gm3Ev1m60bwcBvMC3nXaxp1ZQ
+
+
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFGdG41REs2MV9aUkxDQ2ZPS3NEdSJ9.eyJpc3MiOiJodHRwczovL2Rldi10ZTZ5amF5Zi51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJkMmQ1MjBmNjlkYzM4ODFiOTk1YTc0IiwiYXVkIjoiY29mZmVlIiwiaWF0IjoxNjU4MTI5MTQ4LCJleHAiOjE2NTgxMzYzNDgsImF6cCI6Ik5ZbkZabk1JWHR2eDFIZnVuZmdYU3RKak5sdE03OHZZIiwic2NvcGUiOiIifQ.lOmPhzeLhwk7iQr3jq1sOXwGDodT-k15YMhluHBtqfyOmIT3tiF6cTXuxc7iod_0B_VGQ5kziJCQYxxZTbMi68YpL0GLE2zsDTl_TbwogvIjt57OiADSx4DrRMG7OtziVahD9ptm5Mo3BlgnSQAYbe0ugJUud82dvWI952Ux4vqBsvye9N20s38FenvCZi1U_UNMykyM_gCbGaWWdZ3IRhSTcPFekZlkg3Y4BGJpFsdmq0SHN8dTCmUm_gZEMFxT2B7c9ouHk2trilZYVV8UDzcH3if70O7IvtRZ8NoS6DXHdS0k5_OKGmRusyFHSP4ZPSV-k90VDV6vduiwW1VjfQ
+
+
+MANAGER
+
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFGdG41REs2MV9aUkxDQ2ZPS3NEdSJ9.eyJpc3MiOiJodHRwczovL2Rldi10ZTZ5amF5Zi51cy5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDA0Mjk2NjAyNjc1ODM4MzUyMTYiLCJhdWQiOiJjb2ZmZWUiLCJpYXQiOjE2NTgyMjM2NjcsImV4cCI6MTY1ODIzMDg2NywiYXpwIjoiTlluRlpuTUlYdHZ4MUhmdW5mZ1hTdEpqTmx0TTc4dlkiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTpkcmlua3MiLCJnZXQ6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiLCJwYXRjaDpkcmlua3MiLCJwb3N0OmRyaW5rcyJdfQ.i2jd9yooa069vWdiDcLQhxDRWUziKafT8NxO6IfcDD4FK8thRyEMnv4-YGfX5LAw-Ter6BbV0zRTnfDgqmB9azDxLd9IhYZH4KCZVk42VeErORVe_nAxK1OWJTIYGLybLWTy0BMk7w3w17VlLkCZY2EfApfNhuxZt4_Q7OzFiHSlEyjP7JEcvRTeQrJ0sPx9rVfz7PPHJ_lfTexM8Pa8jPaG4kU5_z1xU1r5GDcqiDxyvLw7YQ1kTGfvjPIY3tTKA0FDFfNqn_OVb4dRAyFg4omYG7GLecKfNevLbUD1J_MbcJT7u6VJsF2tcCQe62OMwdZY_FqnCrZeHALnZPIiog
+
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFGdG41REs2MV9aUkxDQ2ZPS3NEdSJ9.eyJpc3MiOiJodHRwczovL2Rldi10ZTZ5amF5Zi51cy5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDA0Mjk2NjAyNjc1ODM4MzUyMTYiLCJhdWQiOiJjb2ZmZWUiLCJpYXQiOjE2NTgxNDgyOTMsImV4cCI6MTY1ODE1NTQ5MywiYXpwIjoiTlluRlpuTUlYdHZ4MUhmdW5mZ1hTdEpqTmx0TTc4dlkiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbXX0.Y0mQfF67kWKyF1vEr7AdCjlaLLRxQ7TydGvItOF4rOaZzETF01G4wUa-UNJdyyp-xa7PBzTuEfagAwsI01COY2wbm-ORaQCr10Tra2OpEgHHFK95xIn1fsKWwjxc5WsNga6VKcu54yIjYRiTDp8VtqLW2HrWt_Oq9O3HtXA4nHI47xizCTO70z_f2TQ5srImlybwjGBccvoJxPA5xR7ZxcCMXx1RzDqtSL0cKyXWRAg_0kRaL8Nv0d2y3Zk1k3tRqzR3G5tued1QQgWsrR9dBMDh-rh4Eal9O8pSxB48HIVVH74uJRn1FZFALJB4G1lSjxdZK_hN1g5eUBrjI2WMqA
